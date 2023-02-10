@@ -1,0 +1,22 @@
+.product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px 0;
+
+	padding: 25px 30px;
+	background-color: $accent4;
+	text-align: center;
+
+	&__text {
+		max-width: 195px;
+	}
+
+	&__price {
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 1.19;
+		letter-spacing: 0.05em;
+		color: $text3;
+	}
+}

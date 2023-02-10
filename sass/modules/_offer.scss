@@ -1,0 +1,13 @@
+.offer {
+	padding: 80px 0 50px;
+	background-color: $accent1;
+
+	&__title {
+		margin-bottom: 38px;
+	}
+	&__product {
+		display: flex;
+		align-items: center;
+		gap: 0 30px;
+	}
+}

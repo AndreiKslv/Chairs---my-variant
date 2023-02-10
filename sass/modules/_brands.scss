@@ -1,0 +1,17 @@
+.brands {
+	padding: 50px 0 40px;
+	background-color: $accent1;
+
+	&__inner {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1px;
+	}
+
+	&__item {
+		padding: 35px 60px;
+		background-color: $accent4;
+	}
+
+	&__img {}
+}

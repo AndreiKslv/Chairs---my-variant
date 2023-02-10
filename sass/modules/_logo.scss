@@ -1,0 +1,21 @@
+$title-logo: #f13c6e;
+
+.logo {
+	display: flex;
+	align-items: center;
+
+	&__img {
+		max-width: 80px;
+	}
+
+	&__name {
+		margin-left: 20px;
+
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 40px;
+		letter-spacing: 0.1em;
+		color: $title-logo;
+	}
+  }
+  

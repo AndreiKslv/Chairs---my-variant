@@ -1,0 +1,57 @@
+.card {
+	display: flex;
+	align-items: center;
+	flex-basis: 540px;
+
+	padding: 35px 45px 35px 40px;
+
+	background-color: $accent2;
+
+	color: $text2;
+
+	&__block {
+
+		display: flex;
+		flex-direction: column;
+		gap: 25px 0;
+	}
+
+	&__title {
+		width: 250px;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 1.166;
+	}
+
+	&__text {
+		&--short {
+			max-width: 141px;
+		}
+	}
+
+	&__input {
+		max-width: 225px;
+		padding: 9px 25px;
+		background: #FFFFFF;
+		border-radius: 30px;
+		outline: none;
+		border: none;
+
+		&::placeholder {
+			color: $input2;
+		}
+	}
+	&__img {	
+		margin-left: 65px;
+
+		&--mail {
+			width: 140px;
+		}
+
+		&--truck {
+			width: 188px;
+			margin-left: 7px;
+		}
+	}
+	&__button {}
+  }

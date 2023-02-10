@@ -1,0 +1,32 @@
+// Global
+
+@import 'global/fonts';
+@import 'global/reset';
+@import 'global/global';
+
+
+
+// Vars
+
+@import 'vars/vars';
+
+
+
+// Modules
+
+@import 'modules/logo';
+@import 'modules/search';
+@import 'modules/button';
+@import 'modules/callback';
+@import 'modules/title';
+@import 'modules/product';
+@import 'modules/card';
+//Navigation
+@import 'modules/nav';
+@import 'modules/menu';
+// Header
+@import 'modules/header';
+// Sections
+@import 'modules/offer';
+@import 'modules/cards';
+@import 'modules/brands';

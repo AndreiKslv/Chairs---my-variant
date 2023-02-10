@@ -1,0 +1,9 @@
+.cards {	
+	padding: 50px 0;
+	background-color: $accent1;
+
+	&__inner {
+		display: flex;
+		gap: 30px;
+	}
+}
