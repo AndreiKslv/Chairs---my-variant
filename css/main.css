@@ -260,4 +260,41 @@ body {
     padding: 35px 60px;
     background-color: #ffffff; }
 
+.watched {
+  padding: 40px 0 80px;
+  background-color: #e5e5e5; }
+  .watched__title {
+    margin-bottom: 40px; }
+  .watched__product {
+    display: flex;
+    align-items: center;
+    gap: 30px; }
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0; }
+.footer__messenger {
+  display: flex;
+  align-items: center;
+  gap: 0 20px; }
+.footer__address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.1428;
+  color: #000000; }
+.footer__policy {
+  background-color: #e5e5e5; }
+.footer__rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0; }
+.footer__link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282; }
+
 /*# sourceMappingURL=main.css.map */

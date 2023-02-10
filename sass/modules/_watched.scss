@@ -1,0 +1,16 @@
+.watched {
+	padding: 40px 0 80px;
+	background-color: $accent1;
+
+	&__title {
+		margin-bottom: 40px;
+	}
+
+	&__product {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+	}
+  }
+
+  
